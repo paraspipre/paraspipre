@@ -13,7 +13,7 @@ const ContactPage = () => {
     e.preventDefault();
     console.log(process.env.NEXT_PUBLIC_API_URL);
     const data = { name, email, subject, message }
-    const res = await axios.post(`http://localhost:3000/api/contact`, data);
+    const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/contact`, data);
     if (res) {
       console.log(res.data);
       setName('');
