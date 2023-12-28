@@ -72,10 +72,10 @@
   background: rgba(6, 182, 212, 0.25);
 }
 
-.react-query,.tensorflow,.bootstrap,.llm ,.javascript{
+.react-query,.tensorflow,.bootstrap,.llm ,.javascript ,.stable-diffusion{
   border: 2px solid rgb(255, 65, 84);
 }
-.react-query:hover ,.tensorflow:hover,.bootstrap:hover,.llm:hover,.javascript:hover{
+.react-query:hover ,.tensorflow:hover,.bootstrap:hover,.llm:hover,.javascript:hover,.stable-diffusion:hover{
   background: rgba(255, 65, 84, 0.25);
 }
 
