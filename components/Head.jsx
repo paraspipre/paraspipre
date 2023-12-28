@@ -1,5 +1,5 @@
 import Head from 'next/head';
-
+import {image} from "./paras.jpg"
 const CustomHead = ({ title }) => {
   return (
     <Head>
@@ -19,7 +19,7 @@ const CustomHead = ({ title }) => {
       />
       <meta
         property="og:image"
-        content="https://drive.google.com/file/d/1Vmss6iTT6g0tu3NdA9DhddSg863-sNmA/preview"
+        content={image}
       />
       <meta property="og:url" content="https://paraspipre.vercel.app" />
       <meta name="twitter:card" content="summary_large_image" />

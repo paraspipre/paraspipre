@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Illustration from '../components/Illustration';
 import styles from '../styles/HomePage.module.css';
+import {pdf} from "./Paras_Pipre_Resume.pdf"
 
 export default function HomePage() {
   return (
