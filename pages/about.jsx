@@ -1,0 +1,53 @@
+const AboutPage = () => {
+  return (
+    <>
+      <h2>A Little Bit About Me...</h2>
+      <ul>
+        <li>
+          <h3 style={{ marginTop: "20px" }}>
+            I am a fourth-year Information Technology student at Jabalpur
+            Engineering College, currently pursuing a Bachelor of Technology in Information Technology.
+            With a robust academic background in courses such as Operating
+            Systems, Database Management System, Computer Networking, Data
+            Structures, and Algorithms, I have gained hands-on experience as a
+            Full Stack Web Developer Intern at Tapop and an App Developer Intern
+            at Sameep.
+          </h3>
+        </li>
+        <li>
+          <h3 style={{ marginTop: "20px" }}>
+            My technical expertise spans languages like C/C++, JavaScript, and
+            Python, with proficiency in a range of developer tools and
+            frameworks like Reactjs , Nextjs, MongoDB , Nodejs . Notable
+            projects include a AI avatar generation website using Stable Diffusion, a
+            user-friendly blogging platform using MERN stack, and a React Native mobile app for plant disease
+            detection using CNN (deep learning).
+          </h3>
+        </li>
+        <li>
+          <h3 style={{ marginTop: "20px" }}>
+            In addition to my development skills, I am well-versed in cloud
+            services, particularly AWS, and possess knowledge in DevOps
+            practices. I have successfully applied my skills in machine
+            learning, utilizing frameworks such as TensorFlow and Keras.
+          </h3>
+        </li>
+        <li>
+          <h3 style={{ marginTop: "20px" }}>
+            Driven by a passion for technology and a commitment to excellence, I
+            am eager to contribute my skills and dedication to innovative
+            projects.
+          </h3>
+        </li>
+      </ul>
+    </>
+  );
+};
+
+export async function getStaticProps() {
+  return {
+    props: { title: "About" },
+  };
+}
+
+export default AboutPage;

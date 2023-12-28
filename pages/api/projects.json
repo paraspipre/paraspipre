@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "name": "Avatar",
+    "image": "https://imgur.com/mKkz0iz.png",
+    "description": "Currently working on image generation website focused on creating personalized avatars from user-provided image and prompt The image generation process employed stable diffusion and Roop extension, implemented using the Diffusers library from Hugging Face.Face swap functionality is done using Roo",
+    "tags": ["react", "python", "stable-diffusion"],
+    "source_code": "https://github.com/paras11917/avatar",
+    "demo": "https://avatar-frontend.vercel.app/"
+  },
+  {
+    "id": 2,
+    "name": "NayaMitra",
+    "image": "https://imgur.com/mKkz0iz.png",
+    "description": "The project features a responsive React-based frontend, ensuring seamless user interaction when searching for lawyers and uploading documents. The integration of AI and ML technologies enhances the platform by providing personalised lawyer recommendations and optimising user experiences",
+    "tags": ["react", "node", "express", "socketio", "machine-learning", "nlp" ,"llm" ,"mongodb"],
+    "source_code": "https://github.com/paras11917/nyaymitra-frontend/",
+    "demo": "https://nyaymitra-frontend.vercel.app/"
+  },
+
+  {
+    "id": 3,
+    "name": "Blogging Website",
+    "image": "https://imgur.com/kbGs6zH.png",
+    "description": "A blogging site for reading and writing blogs.The website encompasses a user-friendly dashboard for both users and administrators.Equipped with robust CRUD functionality. Employed JWT-based authentication and role-based authorization to ensure secure interactions",
+    "tags": ["next", "node", "mongodb", "bootstrap", "express"],
+    "source_code": "https://github.com/paras11917/webblog",
+    "demo": "https://parasblog.vercel.app/blogs"
+  },
+
+  {
+    "id": 4,
+    "name": "DoctorAi",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "Website tailored for disease detection through uploaded CT-Scan and MRI images of specific body parts. Users can seamlessly upload images from their gallery, initiating the AI-driven analysis process and receiving comprehensive disease insights for informed medical evaluation",
+    "tags": [
+      "python",
+      "tensorflow",
+      "tensorflowjs",
+      "html",
+      "css",
+      "javascript"
+    ],
+    "source_code": "https://github.com/paras11917/doctor-ai",
+    "demo": "https://paras11917.github.io/doctor-ai-html/"
+  },
+  {
+    "id": 5,
+    "name": "PlantAi",
+    "image": "https://imgur.com/tAZotn3.png",
+    "description": "Developed a plant disease detection mobile application. Empowering users to identify plant diseases effortlessly by capturing a photo of the plant’s leaf. Employing an CNN model, the app accurately detects diseases from leaf images.",
+    "tags": ["react-native", "node", "mongodb", "flask", "tensorflow"],
+    "source_code": "https://github.com/paras11917/Plant-disease-detection",
+    "demo": "https://drive.google.com/file/d/1K8NlW9JkyUUFEABvvq-IHbWbzRda0kPo/preview"
+  },
+  {
+    "id": 6,
+    "name": "React Native Ecomm",
+    "image": "https://imgur.com/mKkz0iz.png",
+    "description": "{Website that facilitates seamless one-on-one chat interactions between users.}  \resumeItem{ Leveraged the power of socket.io to ensure real-time communication, fostering instant and smooth exchange of information between users.",
+    "tags": ["react-native", "node", "mongodb","express"],
+    "source_code": "https://github.com/paras11917/Ecom-mobile-frontend",
+    "demo": "https://whatsapp-analysis-paras.streamlit.app/"
+  },
+  {
+    "id": 7,
+    "name": "Chat App",
+    "image": "https://imgur.com/mKkz0iz.png",
+    "description": "{Website that facilitates seamless one-on-one chat interactions between users.}  \resumeItem{ Leveraged the power of socket.io to ensure real-time communication, fostering instant and smooth exchange of information between users.",
+    "tags": ["react", "node", "express", "socketio"],
+    "source_code": "https://github.com/paras11917/chat-app-frontend",
+    "demo": "https://chat-app-paras.vercel.app"
+  },
+  {
+    "id": 8,
+    "name": "Movie db",
+    "image": "https://imgur.com/mKkz0iz.png",
+    "description": "{Website that facilitates seamless one-on-one chat interactions between users.}  \resumeItem{ Leveraged the power of socket.io to ensure real-time communication, fostering instant and smooth exchange of information between users.",
+    "tags": ["react"],
+    "source_code": "https://github.com/paras11917/moviedb",
+    "demo": "https://moviedb-wine.vercel.app/"
+  },
+  {
+    "id": 9,
+    "name": "Whatsapp Analysis",
+    "image": "https://imgur.com/mKkz0iz.png",
+    "description": "{Website that facilitates seamless one-on-one chat interactions between users.}  \resumeItem{ Leveraged the power of socket.io to ensure real-time communication, fostering instant and smooth exchange of information between users.",
+    "tags": ["python", "streamlit"],
+    "source_code": "https://github.com/paras11917/whatsapp-analysis-",
+    "demo": "https://whatsapp-analysis-paras.streamlit.app/"
+  },
+  {
+    "id": 10,
+    "name": "SpaceGame",
+    "image": "https://imgur.com/mKkz0iz.png",
+    "description": "Space game using python",
+    "tags": ["python","pygame"],
+    "source_code": "https://github.com/paras11917/Space-game",
+    "demo": "https://paras11917.github.io/SnakeGame/"
+  },
+  {
+    "id": 11,
+    "name": "SnakeGame",
+    "image": "https://imgur.com/mKkz0iz.png",
+    "description": "Snake game using Javascript",
+    "tags": ["html", "css", "javascript"],
+    "source_code": "https://github.com/paras11917/SnakeGame",
+    "demo": "https://paras11917.github.io/SnakeGame/"
+  },
+  {
+    "id": 12,
+    "name": "Website Blocker extension",
+    "image": "https://imgur.com/mKkz0iz.png",
+    "description": "Browser extension to block some website",
+    "tags": ["html", "css", "javascript"],
+    "source_code": "https://github.com/paras11917/website_blocker",
+    "demo": "https://whatsapp-analysis-paras.streamlit.app/"
+  }
+]
