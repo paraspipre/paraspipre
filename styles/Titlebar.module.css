@@ -4,7 +4,7 @@
   padding: 0 0.5rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 0.85rem;
@@ -15,7 +15,7 @@
   flex: 1;
   display: flex;
   margin-right: auto;
-  margin-left: 0.5rem;
+  /* margin-left: 0.5rem; */
 }
 
 .title {
