@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import {image} from "./paras.jpg"
 const CustomHead = ({ title }) => {
   return (
     <Head>
@@ -17,10 +16,7 @@ const CustomHead = ({ title }) => {
         property="og:description"
         content="A full-stack developer building websites that you'd like to use."
       />
-      <meta
-        property="og:image"
-        content={image}
-      />
+      <meta property="og:image" content="https://imgur.com/YWieU1Y" />
       <meta property="og:url" content="https://paraspipre.vercel.app" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
