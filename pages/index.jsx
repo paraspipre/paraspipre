@@ -21,7 +21,7 @@ export default function HomePage() {
               <button className={styles.outlined}>Contact Me</button>
             </Link>
             <Link href="Paras_Pipre_Resume.pdf" target="_blank" download>
-              <button style={{marginLeft:"20px"}} className={styles.outlined}>Resume</button>
+              <button style={{margin:"20px"}} className={styles.outlined}>Resume</button>
             </Link>
           </div>
           <Illustration className={styles.illustration} />
