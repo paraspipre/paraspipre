@@ -35,7 +35,7 @@ const GithubPage = ({ repos, user }) => {
       </div>
       <div className={styles.container}>
         {console.log(repos ,user)}
-        {repos && repos.map((repo) => (
+        {repos?.length>0 && repos.map((repo) => (
           <RepoCard key={repo.id} repo={repo} />
         ))}
       </div>
