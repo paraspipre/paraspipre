@@ -4,15 +4,23 @@ import styles from '../styles/ProjectCard.module.css';
 const ProjectCard = ({ project }) => {
   return (
     <div className={styles.card}>
-     
-      <iframe
-        style={{ borderTopRightRadius: "20px", borderTopLeftRadius: "20px" ,border:"none"}}
+      {/* <iframe
+        style={{
+          borderTopRightRadius: "20px",
+          borderTopLeftRadius: "20px",
+          border: "none",
+        }}
         src={project.demo}
         width="100%"
         height="250px"
         allow="autoplay"
         allowFullScreen
-      />
+      /> */}
+        <Image
+          src={project.image}
+          width={"1920"}
+          height={"1080"}
+        />
 
       <div className={styles.content}>
         <h3>{project.name}</h3>
@@ -35,14 +43,14 @@ const ProjectCard = ({ project }) => {
               Source Code
             </a>
           )}
-          <a
-            href={project.demo}
+          {project?.demo && <a
+            href={project?.demo}
             target="_blank"
             rel="noopener noreferrer"
             className={styles.underline}
           >
             Live Demo
-          </a>
+          </a>}
         </div>
       </div>
     </div>
