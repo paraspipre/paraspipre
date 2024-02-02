@@ -6,16 +6,16 @@
     "description": "Currently working on image generation website focused on creating personalized avatars from user-provided image and prompt The image generation process employed stable diffusion and Roop extension, implemented using the Diffusers library from Hugging Face.Face swap functionality is done using Roo",
     "tags": ["react", "python", "stable-diffusion"],
     "source_code": "https://github.com/paras11917/avatar",
-    "demo": "https://avatar-frontend.vercel.app/"
+    "demo": "https://fotofusion.vercel.app/"
   },
   {
     "id": 2,
     "name": "NayaMitra",
-    "image": "https://imgur.com/EuUSMv4.png",
+    "image": "https://imgur.com/TwxiVxl.png",
     "description": "The project features a responsive React-based frontend, ensuring seamless user interaction when searching for lawyers and uploading documents. The integration of AI and ML technologies enhances the platform by providing personalised lawyer recommendations and optimising user experiences",
     "tags": ["react", "node", "express", "socketio", "machine-learning", "nlp" ,"llm" ,"mongodb"],
     "source_code": "https://github.com/paras11917/nyaymitra-frontend/",
-    "demo": "https://nyaymitra-frontend.vercel.app/"
+    "demo": "https://nyaymitra.vercel.app/"
   },
 
   {
