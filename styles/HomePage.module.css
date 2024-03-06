@@ -205,7 +205,7 @@
 /* Phone */
 @media screen and (max-width: 600px) {
   .background {
-    margin-top: 200px;
+    margin-top: 400px;
     font-size: 1.8rem;
   }
   .foreground {
@@ -235,9 +235,3 @@
   }
 }
 
-/* @media screen and (max-width: 400px) {
-  .background {
-    margin-top: 300px;
-    font-size: 1rem;
-  }
-} */
