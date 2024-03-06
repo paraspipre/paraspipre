@@ -32,12 +32,12 @@ const contactItems = [
   {
     id: 4,
     title: "Backend Development",
-    skills: ["NodeJs", "ExpressJs", "MongoDB", "Nestjs"],
+    skills: ["NodeJs", "ExpressJs", "MongoDB"],
   },
   {
     id: 5,
     title: "Machine Learning",
-    skills: ["TensorFlow", "Keras", "NLP", "Langchain", "Stable diffusion"],
+    skills: ["Machine Learning", "Deep Learning","TensorFlow", "Keras", "NLP", "Stable diffusion"],
   },
   {
     id: 6,
@@ -52,7 +52,7 @@ const contactItems = [
   {
     id: 8,
     title: "DevOps",
-    skills: ["Docker", "Kubernetes", "Jankins"],
+    skills: ["Docker", "Kubernetes"],
   },
 ];
 

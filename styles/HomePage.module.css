@@ -107,6 +107,12 @@
   width: 460px;
 }
 
+.pic{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
 /* 4K Screens */
 @media screen and (min-width: 2000px) {
   .background {
@@ -216,5 +222,6 @@
     width: 75vw;
     height: 50vh;
     z-index: 1;
+    display: none;
   }
 }

@@ -1,51 +1,51 @@
 import styles from '../styles/ContactCode.module.css';
 
 const contactItems = [
-  // {
-  //   social: 'website',
-  //   link: 'paraspipre',
-  //   href: 'https://paraspipre.me',
-  // },
   {
-    social: 'email',
-    link: 'paras11917@gmail.com',
-    href: 'mailto:paras11917@gmail.com',
+    social: "website",
+    link: "paraspipre",
+    href: "https://paraspipre.vercel.app",
   },
   {
-    social: 'github',
+    social: "email",
+    link: "paras11917@gmail.com",
+    href: "mailto:paras11917@gmail.com",
+  },
+  {
+    social: "github",
+    link: "paraspipre",
+    href: "https://github.com/paraspipre",
+  },
+  {
+    social: "linkedin",
+    link: "paraspipre",
+    href: "https://www.linkedin.com/in/paraspipre",
+  },
+  {
+    social: "twitter",
+    link: "ParasPipre",
+    href: "https://twitter.com/ParasPipre",
+  },
+  {
+    social: "instagram",
+    link: "paras_pipre",
+    href: "https://www.instagram.com/paras_pipre",
+  },
+  {
+    social: "leetcode",
+    link: "paraspipre",
+    href: "https://leetcode.com/paraspipre",
+  },
+  {
+    social: "telegram",
+    link: "paraspipre",
+    href: "https://t.me/paraspipre",
+  },
+  {
+    social: 'codeforces',
     link: 'paras11917',
-    href: 'https://github.com/paras11917',
+    href: 'https://codeforces.com/profile/paras11917',
   },
-  {
-    social: 'linkedin',
-    link: 'paras-pipre',
-    href: 'https://www.linkedin.com/in/paras-pipre/',
-  },
-  {
-    social: 'twitter',
-    link: 'ParasPipre',
-    href: 'https://twitter.com/ParasPipre',
-  },
-  {
-    social: 'instagram',
-    link: 'paras_pipre',
-    href: 'https://www.instagram.com/paras_pipre',
-  },
-  // {
-  //   social: 'polywork',
-  //   link: 'nitinranganath',
-  //   href: 'https://www.polywork.com/nitinranganath',
-  // },
-  {
-    social: 'telegram',
-    link: 'paraspipre',
-    href: 'https://t.me/paraspipre',
-  },
-  // {
-  //   social: 'codepen',
-  //   link: 'nitinranganath',
-  //   href: 'https://codepen.io/itsnitinr',
-  // },
   // {
   //   social: 'codesandbox',
   //   link: 'itsnitinr',

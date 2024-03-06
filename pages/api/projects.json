@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Avatar",
     "image": "https://imgur.com/xYUHitj.png",
-    "description": "Currently working on image generation website focused on creating personalized avatars from user-provided image and prompt The image generation process employed stable diffusion and Roop extension, implemented using the Diffusers library from Hugging Face.Face swap functionality is done using Roo",
+    "description": "Currently working on image generation website focused on creating personalized avatars from user-provided image and prompt The image generation process employed stable diffusion and Roop extension, implemented using the Diffusers library from Hugging Face.Face swap functionality is done using Roop",
     "tags": ["react", "python", "stable-diffusion"],
     "source_code": "https://github.com/paras11917/avatar",
     "demo": "https://fotofusion.vercel.app/"
@@ -14,18 +14,18 @@
     "image": "https://imgur.com/TwxiVxl.png",
     "description": "The project features a responsive React-based frontend, ensuring seamless user interaction when searching for lawyers and uploading documents. The integration of AI and ML technologies enhances the platform by providing personalised lawyer recommendations and optimising user experiences",
     "tags": ["react", "node", "express", "socketio", "machine-learning", "nlp" ,"llm" ,"mongodb"],
-    "source_code": "https://github.com/paras11917/nyaymitra-frontend/",
+    "source_code": "https://github.com/paras11917/nyaymitra/",
     "demo": "https://nyaymitra.vercel.app/"
   },
 
   {
     "id": 3,
-    "name": "Blogging Website",
+    "name": "WebBlog",
     "image": "https://imgur.com/3L95ZEg.png",
     "description": "A blogging site for reading and writing blogs.The website encompasses a user-friendly dashboard for both users and administrators.Equipped with robust CRUD functionality. Employed JWT-based authentication and role-based authorization to ensure secure interactions",
     "tags": ["next", "node", "mongodb", "bootstrap", "express"],
     "source_code": "https://github.com/paras11917/webblog",
-    "demo": "https://parasblog.vercel.app"
+    "demo": "https://webblog-iota.vercel.app"
   },
 
   {
