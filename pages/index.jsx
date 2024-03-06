@@ -18,10 +18,10 @@ export default function HomePage() {
               width={200}
               height={200}
               src="/paras.jpg"
-    
             />
             <h1 className={styles.name}>Paras Pipre</h1>
             <h6 className={styles.bio}>Software Engineer</h6>
+            <h6 className={styles.bio}>MERN | ML&AI</h6>
             <Link href="/projects">
               <button className={styles.button}>My Work</button>
             </Link>

@@ -143,7 +143,7 @@
 /* iPad Pro */
 @media screen and (max-width: 1100px) {
   .background {
-    display: none;
+    font-size: 4.5rem;
   }
   .container {
     display: block;
@@ -171,6 +171,10 @@
 
 /* iPad */
 @media screen and (max-width: 900px) {
+  .background {
+    margin-top: 100px;
+    font-size: 3rem;
+  }
   .foreground {
     margin: 2rem 0;
   }
@@ -185,6 +189,7 @@
     height: 550px;
     width: 420px;
     bottom: -50px;
+    display: none;
   }
 }
 
@@ -199,6 +204,10 @@
 
 /* Phone */
 @media screen and (max-width: 600px) {
+  .background {
+    margin-top: 200px;
+    font-size: 2rem;
+  }
   .foreground {
     margin: 0;
   }
