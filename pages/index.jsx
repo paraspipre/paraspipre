@@ -24,21 +24,22 @@ export default function HomePage() {
               Software Engineer <br />
               MERN | ML&AI
             </h6>
-            {/* <h6 className={styles.bio}>MERN | ML&AI</h6> */}
-            <Link href="/projects">
-              <button className={styles.button}>My Work</button>
-            </Link>
-            <Link href="/contact">
-              <button className={styles.outlined}>Contact Me</button>
-            </Link>
-            <Link
-              href="https://drive.google.com/file/d/1cc9J15MXnocfat5bajBalvtuaihqwRun/view"
-              target="_blank"
-            >
-              <button style={{ margin: "20px" }} className={styles.outlined}>
-                Resume
-              </button>
-            </Link>
+            <div className={styles.btncont}>
+              <Link href="/projects">
+                <button className={styles.button}>My Work</button>
+              </Link>
+              <Link href="/contact">
+                <button className={styles.outlined}>Contact Me</button>
+              </Link>
+              <Link
+                href="https://drive.google.com/file/d/1cc9J15MXnocfat5bajBalvtuaihqwRun/view"
+                target="_blank"
+              >
+                <button className={styles.outlined}>
+                  Resume
+                </button>
+              </Link>
+            </div>
           </div>
           <Illustration className={styles.illustration} />
         </div>

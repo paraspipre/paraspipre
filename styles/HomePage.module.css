@@ -8,12 +8,22 @@
   position: relative;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  position: relative;
+}
+
 .background {
   font-size: 5rem;
   font-family: "Montserrat";
   line-height: 1.1;
   color: var(--bg-text);
   position: absolute;
+  z-index: 1;
 }
 
 .foreground {
@@ -38,6 +48,7 @@
   font-weight: 300;
   margin-bottom: 3rem;
   position: relative;
+  text-align: center;
 }
 
 .bio::before,
@@ -79,7 +90,6 @@
   background: var(--accent-color);
   font-size: 1.25rem;
   padding: 0.5rem 1rem;
-  margin-right: 1.5rem;
   color: #eee;
   font-weight: 600;
   border: none;
@@ -103,13 +113,21 @@
 
 .illustration {
   height: 500px;
-  width: 460px;
+  width: 450px;
+  position: absolute;
+  top: 10%;
+  right: 0;
 }
 
 .pic {
   height: 300px;
   width: 300px;
   border-radius: 50%;
+}
+
+.btncont {
+  display: flex;
+  gap: 1rem;
 }
 
 /* 4K Screens */
@@ -144,12 +162,12 @@
   .background {
     font-size: 4.5rem;
   }
-  .container {
+  /* .container {
     display: block;
-  }
+  } */
   .foreground {
     margin: 4rem 0;
-    display: block;
+    /* display: block; */
     text-align: center;
   }
   .name {
@@ -161,21 +179,22 @@
   }
   .illustration {
     position: absolute;
-    bottom: -50px;
+    top: 50px;
     right: 0;
-    height: 700px;
-    width: 600px;
+    height: 550px;
+    width: 420px;
   }
 }
 
 /* iPad */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .background {
-    margin-top: 100px;
-    font-size: 3rem;
+    margin-top: 200px;
+    font-size: 3.5rem;
   }
   .foreground {
     margin: 2rem 0;
+    position: relative;
   }
   .name {
     font-size: 3rem;
@@ -185,52 +204,66 @@
     font-size: 1.5rem;
   }
   .illustration {
-    height: 550px;
-    width: 420px;
-    bottom: -50px;
-    display: none;
+    height: 450px;
+    width: 320px;
+    top: 0;
+  }
+  .container {
+    display: block;
   }
 }
 
-@media screen and (orientation: landscape) and (max-width: 1050px) {
-  .container {
-    display: flex;
+@media screen and (max-width: 750px) {
+  .foreground {
+    margin: 0;
+    display: block;
   }
-  .illustration {
-    display: none;
+  .background {
+    margin-top: 350px;
+    font-size: 2.5rem;
   }
 }
 
 /* Phone */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .background {
-    margin-top: 400px;
-    font-size: 1.8rem;
+    margin-top: 450px;
+    font-size: 2rem;
+    left: 15vw;
   }
-  .foreground {
-    margin: 0;
+  .illustration {
+    bottom: 0;
+    right: 0;
+    width: 75vw;
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    display: block;
+  }
+  .background {
+    margin-top: 450px;
+    font-size: 1.5rem;
   }
   .name {
     font-size: 2rem;
   }
   .bio {
     font-size: 1.25rem;
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 2rem;
   }
-  .button {
-    font-size: 1rem;
-  }
-  .outlined {
-    font-size: 1rem;
+  .btncont {
+    display: flex;
+    flex-wrap: wrap;
   }
   .illustration {
-    position: absolute;
-    bottom: 0;
+    top: 0;
     right: 0;
-    width: 75vw;
+    width: 80vw;
     height: 50vh;
-    z-index: 1;
-    display: none;
   }
 }
-

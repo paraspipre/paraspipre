@@ -36,6 +36,14 @@
 
 @media screen and (max-width: 600px) {
   .content {
-    padding: 2rem 1rem;
+    padding: 2rem 0.2rem;
   }
+  .content {
+  scrollbar-width: 4px;
+  scrollbar-color: var(--accent-color);
+}
+
+.content::-webkit-scrollbar {
+  width: 4px;
+}
 }
