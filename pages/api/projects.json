@@ -5,7 +5,7 @@
     "image": "https://imgur.com/xYUHitj.png",
     "description": "Currently working on image generation website focused on creating personalized avatars from user-provided image and prompt The image generation process employed stable diffusion and Roop extension, implemented using the Diffusers library from Hugging Face.Face swap functionality is done using Roop",
     "tags": ["react", "python", "stable-diffusion"],
-    "source_code": "https://github.com/paras11917/avatar",
+    "source_code": "https://github.com/paraspipre/avatar",
     "demo": "https://fotofusion.vercel.app/"
   },
   {
@@ -13,18 +13,35 @@
     "name": "NayaMitra",
     "image": "https://imgur.com/TwxiVxl.png",
     "description": "The project features a responsive React-based frontend, ensuring seamless user interaction when searching for lawyers and uploading documents. The integration of AI and ML technologies enhances the platform by providing personalised lawyer recommendations and optimising user experiences",
-    "tags": ["react", "node", "express", "socketio", "machine-learning", "nlp" ,"llm" ,"mongodb"],
-    "source_code": "https://github.com/paras11917/nyaymitra/",
+    "tags": [
+      "react",
+      "node",
+      "express",
+      "socketio",
+      "machine-learning",
+      "nlp",
+      "llm",
+      "mongodb"
+    ],
+    "source_code": "https://github.com/paraspipre/nyaymitra/",
     "demo": "https://nyaymitra.vercel.app/"
   },
-
+  {
+    "id": 10,
+    "name": "iFace",
+    "image": "https://imgur.com/SCCHGWY.png",
+    "description": "A face detection site with expression analysis of Student daily, weekly and monthly.Equipped with robust CRUD functionality. Employed JWT-based authentication and role-based authorization to ensure secure interactions",
+    "tags": ["react","faceapi.js", "node", "mongodb", "bootstrap", "express"],
+    "source_code": "https://github.com/paraspipre/facedetection",
+    "demo": "https://facedetection-nu.vercel.app/"
+  },
   {
     "id": 3,
     "name": "WebBlog",
     "image": "https://imgur.com/3L95ZEg.png",
     "description": "A blogging site for reading and writing blogs.The website encompasses a user-friendly dashboard for both users and administrators.Equipped with robust CRUD functionality. Employed JWT-based authentication and role-based authorization to ensure secure interactions",
     "tags": ["next", "node", "mongodb", "bootstrap", "express"],
-    "source_code": "https://github.com/paras11917/webblog",
+    "source_code": "https://github.com/paraspipre/webblog",
     "demo": "https://webblog-iota.vercel.app"
   },
 
@@ -41,7 +58,7 @@
       "css",
       "javascript"
     ],
-    "source_code": "https://github.com/paras11917/doctor-ai",
+    "source_code": "https://github.com/paraspipre/doctor-ai",
     "demo": "https://paras11917.github.io/doctor-ai-html/"
   },
   {
@@ -50,7 +67,7 @@
     "image": "https://imgur.com/tAZotn3.png",
     "description": "Developed a plant disease detection mobile application. Empowering users to identify plant diseases effortlessly by capturing a photo of the plant’s leaf. Employing an CNN model, the app accurately detects diseases from leaf images.",
     "tags": ["react-native", "node", "mongodb", "flask", "tensorflow"],
-    "source_code": "https://github.com/paras11917/Plant-disease-detection",
+    "source_code": "https://github.com/paraspipre/Plant-disease-detection",
     "demo": "https://drive.google.com/file/d/1K8NlW9JkyUUFEABvvq-IHbWbzRda0kPo/preview"
   },
   {
@@ -58,8 +75,8 @@
     "name": "React Native Ecomm",
     "image": "https://imgur.com/mKkz0iz.png",
     "description": "Ecommerce mobile app brings the world of shopping to your fingertips. Browse, shop, and enjoy a seamless shopping experience with our user-friendly ecommerce mobile app. Discover a wide range of products, exclusive deals, and secure checkout – all in one app.",
-    "tags": ["react-native", "node", "mongodb","express"],
-    "source_code": "https://github.com/paras11917/Ecom-mobile-frontend"
+    "tags": ["react-native", "node", "mongodb", "express"],
+    "source_code": "https://github.com/paraspipre/Ecom-mobile-frontend"
   },
   {
     "id": 7,
@@ -67,7 +84,7 @@
     "image": "https://imgur.com/a3Hbzf8.png",
     "description": "Website that facilitates seamless one-on-one chat interactions between users.Leveraged the power of socket.io to ensure real-time communication, fostering instant and smooth exchange of information between users.",
     "tags": ["react", "node", "express", "socketio"],
-    "source_code": "https://github.com/paras11917/chat-app-frontend",
+    "source_code": "https://github.com/paraspipre/chat-app-frontend",
     "demo": "https://chat-app-paras.vercel.app"
   },
   {
@@ -76,7 +93,7 @@
     "image": "https://imgur.com/lbRn5Zj.png",
     "description": "Your one-stop destination for the latest movie reviews and ratings and explore up-to-date insights.",
     "tags": ["react"],
-    "source_code": "https://github.com/paras11917/moviedb",
+    "source_code": "https://github.com/paraspipre/moviedb",
     "demo": "https://moviedb-wine.vercel.app/"
   },
   {
@@ -84,8 +101,8 @@
     "name": "Whatsapp Analysis",
     "image": "https://imgur.com/vK5pULK.png",
     "description": "Explore WhatsApp group conversations with Python-based analysis platform. Utilizing Pandas, Streamlit, and Matplotlib, this website site offers features such as an interactive activity map heatmap, identification of the most active days and participants, word cloud visualization, and analysis of the most used words and emojis",
-    "tags": ["python", "streamlit","pandas","matplotlib"],
-    "source_code": "https://github.com/paras11917/whatsapp-analysis-",
+    "tags": ["python", "streamlit", "pandas", "matplotlib"],
+    "source_code": "https://github.com/paraspipre/whatsapp-analysis-",
     "demo": "https://whatsapp-analysis-paras.streamlit.app/"
   }
 ]
