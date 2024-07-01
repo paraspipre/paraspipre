@@ -67,6 +67,7 @@
 }
 
 .bio::after {
+  overflow: hidden;
   margin-left: 0.4rem;
   width: 0.125em;
   background: var(--accent-color);
@@ -267,3 +268,4 @@
     height: 50vh;
   }
 }
+

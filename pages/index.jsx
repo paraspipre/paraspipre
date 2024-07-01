@@ -17,7 +17,7 @@ export default function HomePage() {
               className={styles.pic}
               width={200}
               height={200}
-              src="/paras.jpg"
+              src="/paras.jpeg"
             />
             <h1 className={styles.name}>Paras Pipre</h1>
             <h6 className={styles.bio}>
