@@ -32,7 +32,7 @@ export default function HomePage() {
                 <button className={styles.outlined}>Contact Me</button>
               </Link>
               <Link
-                href="https://drive.google.com/file/d/1cc9J15MXnocfat5bajBalvtuaihqwRun/view"
+                href="/resume"
                 target="_blank"
               >
                 <button className={styles.outlined}>
