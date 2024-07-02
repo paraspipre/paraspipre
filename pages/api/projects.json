@@ -1,9 +1,18 @@
 [
   {
+    "id": 11,
+    "name": "Interview AI",
+    "image": "https://imgur.com/tAZotn3.png",
+    "description": "Currently working on interview Ai. AI will take interview of person based on the role and resume of the person",
+    "tags": ["next", "python", "langchain"],
+    "source_code": "https://github.com/paraspipre/interviewai",
+    "demo": "https://interviewai-xi.vercel.app/"
+  },
+  {
     "id": 1,
-    "name": "Avatar",
+    "name": "Avatar AI",
     "image": "https://imgur.com/xYUHitj.png",
-    "description": "Currently working on image generation website focused on creating personalized avatars from user-provided image and prompt The image generation process employed stable diffusion and Roop extension, implemented using the Diffusers library from Hugging Face.Face swap functionality is done using Roop",
+    "description": "Image generation website focused on creating personalized avatars from user-provided image and prompt The image generation process employed stable diffusion and Roop extension, implemented using the Diffusers library from Hugging Face.Face swap functionality is done using Roop",
     "tags": ["react", "python", "stable-diffusion"],
     "source_code": "https://github.com/paraspipre/avatar",
     "demo": "https://fotofusion.vercel.app/"
@@ -31,7 +40,7 @@
     "name": "iFace",
     "image": "https://imgur.com/SCCHGWY.png",
     "description": "A face detection site with expression analysis of Student daily, weekly and monthly.Equipped with robust CRUD functionality. Employed JWT-based authentication and role-based authorization to ensure secure interactions",
-    "tags": ["react","faceapi.js", "node", "mongodb", "bootstrap", "express"],
+    "tags": ["react", "faceapi.js", "node", "mongodb", "bootstrap", "express"],
     "source_code": "https://github.com/paraspipre/facedetection",
     "demo": "https://facedetection-nu.vercel.app/"
   },
