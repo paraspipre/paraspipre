@@ -70,20 +70,20 @@
 }
 
 .name p:nth-child(7){
-  animation: move 3.5s  linear;
+  animation: move 3s  linear;
 }
 .name p:nth-child(8){
-  animation: move 4s  linear;
+  animation: move 3.5s  linear;
 }
 .name p:nth-child(9){
-  animation: move 4.5s  linear;
+  animation: move 4s  linear;
 }
 .name p:nth-child(10){
-  animation: move 5s  linear;
+  animation: move 4.5s  linear;
 }
 
 .name p:nth-child(11){
-  animation: move 5.5s  linear;
+  animation: move 5s  linear;
 }
 
 @keyframes move{
@@ -356,7 +356,7 @@
     top: 0;
     left: 0;
     width: 50vw;
-    height: 50vh;
+    height: 56vh;
     transform: rotateY(180deg);
   }
 }
