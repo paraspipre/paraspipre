@@ -1,5 +1,6 @@
 /* GitHub Dark */
-:root {
+
+[data-theme='dracula']  {
   --main-bg: #24292e;
   --bg-text: rgba(56, 58, 61, 0.35);
   --text-color: #efefef;
@@ -25,7 +26,8 @@
 }
 
 /* Dracula */
-[data-theme='dracula'] {
+
+:root{
   --main-bg: #282a36;
   --bg-text: #313340;
   --text-color: #efefef;

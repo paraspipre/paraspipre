@@ -31,7 +31,7 @@ const ContactPage = () => {
         <h3 className={styles.heading}>Reach Out Via Socials</h3>
         <ContactCode />
       </div>
-      <div>
+      {/* <div>
         <h3 className={styles.heading}>Or Fill Out This Form</h3>
         <form className={styles.form} onSubmit={submitForm}>
           <div className={styles.flex}>
@@ -82,7 +82,7 @@ const ContactPage = () => {
           </div>
           <button type="submit">Submit</button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };

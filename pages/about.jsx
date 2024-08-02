@@ -1,17 +1,25 @@
+import Image from "next/image";
+import styles from "../styles/HomePage.module.css";
 const AboutPage = () => {
   return (
     <>
       <h2>A Little Bit About Me...</h2>
+      <Image
+        className={styles.pic}
+        width={150}
+        height={150}
+        src="/paras.jpeg"
+      />
       <ul>
         <li>
           <h3 style={{ marginTop: "20px" }}>
             I am a fourth-year Information Technology student at Jabalpur
-            Engineering College, currently pursuing a Bachelor of Technology in Information Technology.
-            With a robust academic background in courses such as Operating
-            Systems, Database Management System, Computer Networking, Data
-            Structures, and Algorithms, I have gained hands-on experience as a
-            Full Stack Web Developer Intern at Tapop and an App Developer Intern
-            at Sameep.
+            Engineering College, currently pursuing a Bachelor of Technology in
+            Information Technology. With a robust academic background in courses
+            such as Operating Systems, Database Management System, Computer
+            Networking, Data Structures, and Algorithms, I have gained hands-on
+            experience as a Full Stack Web Developer Intern at Tapop and an App
+            Developer Intern at Sameep.
           </h3>
         </li>
         <li>
@@ -19,9 +27,10 @@ const AboutPage = () => {
             My technical expertise spans languages like C/C++, JavaScript, and
             Python, with proficiency in a range of developer tools and
             frameworks like Reactjs , Nextjs, MongoDB , Nodejs . Notable
-            projects include a AI avatar generation website using Stable Diffusion, a
-            user-friendly blogging platform using MERN stack, and a React Native mobile app for plant disease
-            detection using CNN (deep learning).
+            projects include a AI avatar generation website using Stable
+            Diffusion, a user-friendly blogging platform using MERN stack, and a
+            React Native mobile app for plant disease detection using CNN (deep
+            learning).
           </h3>
         </li>
         <li>

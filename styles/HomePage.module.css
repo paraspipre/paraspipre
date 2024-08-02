@@ -35,10 +35,66 @@
 }
 
 .name {
+  display: flex;
+  height: fit-content;
+  overflow: hidden;
   color: #eee;
-  font-size: 3.5rem;
-  font-weight: 500;
+  font-size: 5.5rem;
+  font-weight: 900;
+}
+
+.name p{
   margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.name p:nth-child(1){
+  animation: move 0.5s linear;
+}
+
+.name p:nth-child(2){
+  animation: move 1s  linear;
+}
+.name p:nth-child(3){
+  animation: move 1.5s  linear;
+}
+.name p:nth-child(4){
+  animation: move 2s  linear;
+}
+.name p:nth-child(5){
+  animation: move 2.5s  linear;
+}
+.name p:nth-child(6){
+  animation: move 3s  linear;
+  color: var(--main-bg);
+}
+
+.name p:nth-child(7){
+  animation: move 3.5s  linear;
+}
+.name p:nth-child(8){
+  animation: move 4s  linear;
+}
+.name p:nth-child(9){
+  animation: move 4.5s  linear;
+}
+.name p:nth-child(10){
+  animation: move 5s  linear;
+}
+
+.name p:nth-child(11){
+  animation: move 5.5s  linear;
+}
+
+@keyframes move{
+  from {
+    transform: translateX(800px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
 }
 
 .bio {
@@ -63,7 +119,7 @@
 
 .bio::before {
   background: var(--main-bg);
-  animation: typewriter 2.5s steps(24) 500ms forwards;
+  animation: typewriter 4s steps(24) 500ms alternate infinite;
 }
 
 .bio::after {
@@ -71,8 +127,8 @@
   margin-left: 0.4rem;
   width: 0.125em;
   background: var(--accent-color);
-  animation: typewriter 2.5s steps(24) 500ms forwards,
-    blink 750ms steps(24) infinite;
+  animation: typewriter 4s steps(24) 500ms alternate infinite,
+    blink 4s steps(24) infinite;
 }
 
 @keyframes typewriter {
@@ -96,6 +152,8 @@
   border: none;
   cursor: pointer;
   border: 2px solid var(--accent-color);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  animation: movebtn 2s linear;
 }
 
 .outlined {
@@ -105,6 +163,8 @@
   border: 2px solid var(--accent-color);
   background: transparent;
   cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  animation: movebtn 2s linear;
 }
 
 .button:hover,
@@ -112,11 +172,22 @@
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+@keyframes movebtn{
+  from {
+    transform: translateY(500px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 .illustration {
   height: 500px;
   width: 450px;
   position: absolute;
-  top: 10%;
+  top: 0;
   right: 0;
 }
 
@@ -128,7 +199,25 @@
 
 .btncont {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
+}
+
+.icon{
+  font-size: 3.5rem;
+}
+
+.iconcont{
+  display: flex;
+  gap: 1rem;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  animation: movebtn 2s linear;
 }
 
 /* 4K Screens */
@@ -190,15 +279,18 @@
 /* iPad */
 @media screen and (max-width: 950px) {
   .background {
-    margin-top: 200px;
+    margin-top: 300px;
     font-size: 3.5rem;
   }
+  .content{
+
+  }
   .foreground {
-    margin: 2rem 0;
+    margin: 4rem 0;
     position: relative;
   }
   .name {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 0.5rem;
   }
   .bio {
@@ -220,17 +312,16 @@
     display: block;
   }
   .background {
-    margin-top: 350px;
-    font-size: 2.5rem;
+    margin-top: 450px;
+    font-size: 3rem;
   }
 }
 
 /* Phone */
 @media screen and (max-width: 500px) {
   .background {
-    margin-top: 450px;
-    font-size: 2rem;
-    left: 15vw;
+    margin-top: 500px;
+    font-size: 2.5rem;
   }
   .illustration {
     bottom: 0;
@@ -242,14 +333,13 @@
 
 @media screen and (max-width: 450px) {
   .container {
-    display: block;
+    display: flex;
   }
   .background {
-    margin-top: 450px;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .name {
-    font-size: 2rem;
+    font-size: 2.7rem;
   }
   .bio {
     font-size: 1.25rem;
@@ -260,12 +350,20 @@
   .btncont {
     display: flex;
     flex-wrap: wrap;
+    padding: 30px;
   }
   .illustration {
     top: 0;
-    right: 0;
-    width: 80vw;
+    left: 0;
+    width: 50vw;
     height: 50vh;
+    transform: rotateY(180deg);
   }
 }
 
+@media screen and (max-width: 380px) {
+.background {
+    font-size: 1.5rem;
+    margin-left: 10px;
+  }
+}
