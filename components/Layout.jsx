@@ -15,12 +15,12 @@ const Layout = ({ children }) => {
     main.scrollTop = 0
   }, [router.pathname])
   return (
-    <>
+    <div className={styles.bgm}>
       <Titlebar />
       <div className={styles.main}>
         <Sidebar />
         <Explorer />
-        <div style={{ width: '100%' }}>
+        <div style={{ width: "100%" }}>
           <Tabsbar />
           <main id="main-editor" className={styles.content}>
             {children}
@@ -28,8 +28,8 @@ const Layout = ({ children }) => {
         </div>
       </div>
       <Bottombar />
-    </>
-  )
+    </div>
+  );
 }
 
 export default Layout
