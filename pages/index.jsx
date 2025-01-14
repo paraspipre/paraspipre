@@ -9,8 +9,10 @@ import { RiMailFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
 import { SiCodeforces } from "react-icons/si";
 import { FaGithubSquare } from "react-icons/fa";
+import ProjectsPage from './projects';
+import { getProjects } from './api/projects';
 
-export default function HomePage() {
+export default function HomePage({projects}) {
   return (
     <>
       <div className={styles.container}>
@@ -20,17 +22,7 @@ export default function HomePage() {
         <div className={styles.foreground}>
           <div className={styles.content}>
             <h1 className={styles.name}>
-              <p>P</p>
-              <p>a</p>
-              <p>r</p>
-              <p>a</p>
-              <p>s</p>
-              <p>_</p>
-              <p>P</p>
-              <p>i</p>
-              <p>p</p>
-              <p>r</p>
-              <p>e</p>
+              <p>Paras Pipre</p>
             </h1>
             <h6 className={styles.bio}>Software Engineer</h6>
             <div className={styles.btncont}>
@@ -73,12 +65,14 @@ export default function HomePage() {
           <Illustration className={styles.illustration} />
         </div>
       </div>
+      <ProjectsPage projects={projects} />
     </>
   );
 }
 
 export async function getStaticProps() {
+  const projects = getProjects();
   return {
-    props: { title: 'Home' },
+    props: { title: "Home", projects },
   };
 }

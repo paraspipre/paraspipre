@@ -47,7 +47,7 @@
   margin-bottom: 0.5rem;
   position: relative;
 }
-
+/* 
 .name p:nth-child(1){
   animation: move 0.5s linear;
 }
@@ -95,7 +95,7 @@
     transform: translateX(0px);
     opacity: 1;
   }
-}
+} */
 
 .bio {
   width: max-content;

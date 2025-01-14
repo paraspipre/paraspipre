@@ -3,23 +3,23 @@ import styles from "../styles/HomePage.module.css";
 const AboutPage = () => {
   return (
     <>
-      <h2>A Little Bit About Me...</h2>
-      <Image
-        className={styles.pic}
-        width={150}
-        height={150}
-        src="/paras.jpeg"
-      />
+      <div>
+        <h2 style={{ marginBottom: "20px" }}>A Little Bit About Me...</h2>
+        <Image
+          className={styles.pic}
+          width={150}
+          height={150}
+          src="/paras.jpeg"
+        />
+      </div>
       <ul>
         <li>
           <h3 style={{ marginTop: "20px" }}>
-            I am a fourth-year Information Technology student at Jabalpur
-            Engineering College, currently pursuing a Bachelor of Technology in
-            Information Technology. With a robust academic background in courses
+            I am a BTech graduate with a robust academic background in courses
             such as Operating Systems, Database Management System, Computer
             Networking, Data Structures, and Algorithms, I have gained hands-on
-            experience as a Full Stack Web Developer Intern at Tapop and an App
-            Developer Intern at Sameep.
+            experience as a SDE at Sri Sri Tattva, Full Stack Web Developer
+            Intern at Tapop and an App Developer Intern at Sameep.
           </h3>
         </li>
         <li>
@@ -41,13 +41,13 @@ const AboutPage = () => {
             learning, utilizing frameworks such as TensorFlow and Keras.
           </h3>
         </li>
-        <li>
+        {/* <li>
           <h3 style={{ marginTop: "20px" }}>
             Driven by a passion for technology and a commitment to excellence, I
             am eager to contribute my skills and dedication to innovative
             projects.
           </h3>
-        </li>
+        </li> */}
       </ul>
     </>
   );
